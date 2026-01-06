@@ -13,7 +13,7 @@ def leave_status(total, used):
 def main(stud_id, name, department, total_leaves, used_leaves):
     status = leave_status(total_leaves, used_leaves)
 
-    print("----- Employee Leave Report -----")
+    print("----- Student Leave Report -----")
     print(f"ID          : {stud_id}")
     print(f"Name        : {name}")
     print(f"Department  : {department}")
